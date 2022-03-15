@@ -111,6 +111,9 @@ h3 {
 #ruby-logo:hover {
     color: red;
 }
+#git-logo:hover {
+    color: orange;
+}
 #python-logo:hover {
     color: seagreen;
 }
