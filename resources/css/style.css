@@ -1,11 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     background-color: blanchedalmond;
+    width: 80%;
 }
 
 h1 {
     padding-left: 10px;
+    font-size: 1.75rem;
 }
 
 #nav-links {
@@ -13,15 +21,21 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 30%;
     list-style-type: none;
     padding-right: 10px;
+    width: 30%;
+    font-size: 1.5rem;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 70%;
+}
+
+h2 {
+    font-size: 2rem;
 }
 
 #about-me-div {
@@ -37,6 +51,7 @@ main {
     flex-direction: row;
     justify-content: flex-start;
     width: 90%;
+    margin-bottom: 70px;
 }
 
 #profile-img {
@@ -45,11 +60,20 @@ main {
     border-radius: 80px;
 }
 
-#links-list {
+#websites-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 60%;
+    margin-bottom: 50px;
+}
+
+.weblink {
+    color: black;
+}
+
+.weblink:hover {
+    color: Dodgerblue;
 }
 
 #skill-div {
@@ -59,15 +83,36 @@ main {
     width: 80%;
 }
 
-#skills-list {
+h3 {
+    font-size: 1.75rem;
+}
+
+#skills-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
+    align-items: center;
+    width: 80%;
+    height: 100px;
 }
 
-.links-and-skills {
-    list-style-type: none;
+#html-logo:hover {
+    color: orange;
+}
+#css-logo:hover {
+    color: dodgerblue;
+}
+#js-logo:hover {
+    color: gold;
+}
+#react-logo:hover {
+    color: dodgerblue;
+}
+#ruby-logo:hover {
+    color: red;
+}
+#python-logo:hover {
+    color: seagreen;
 }
 
 #project-div {
@@ -102,5 +147,5 @@ main {
     align-items: center;
     padding-bottom: 10px;
     background-color: coral;
-    width: 100%;
+    width: 200%;
 }
