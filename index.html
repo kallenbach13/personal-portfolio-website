@@ -8,48 +8,73 @@
     </head>
 
     <body>
+
         <nav>
             <h1>Isak Kallenbach</h1>
-            <ul>
+            <ul id="nav-links">
                 <li>About</li>
                 <li>Projects</li>
                 <li>Contact</li>
             </ul>
         </nav>
 
+        <main>
             <div id="about-me-div">
                 <h2>About Me</h2>
-                <img>
-                <p>Short description about me.</p>
-                <div>
+                <div id="description-div">
+                    <img id="profile-img" src="resources/images/profile-placeholder-image.png">
+                    <p>Short description about me.</p>
+                </div>
+
+                <ul class="links-and-skills" id="links-list">
+                        <li>Github</li>
+                        <li>LinkedIn</li>
+                        <li>Medium</li>
+                </ul>
+
+                <div id="skill-div">
                     <h3>Skills</h3>
-                    <div id="skill-container">
-                        <ul>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>Javascript</li>
-                            <li>React</li>
-                            <li>Ruby</li>
-                            <li>Ruby on Rails</li>
-                            <li></li>
-                        </ul>
-                    </div>
+                    <ul class="links-and-skills" id="skills-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                        <li>React</li>
+                        <li>Ruby</li>
+                        <li>Ruby on Rails</li>
+                        <li>Python</li>
+                    </ul>
                 </div>
             </div>
 
-            <div id="projects-div">
+            <div id="project-div">
                 <h2>Projects</h2>
 
-                <div id="project-container">
-                    <div class="project-item">
+                <div id="projects-container">
+                    <div class="project-box">
                         <h4>Project Title</h4>
+                        <img>
+                        <p>Description of project.</p>
+                        <a>Link to working app</a>
+                        <a>Link to github repository</a>
+                    </div>
+
+                    <div class="project-box">
+                        <h4>Project Title</h4>
+                        <img>
+                        <p>Description of project.</p>
+                        <a>Link to working app</a>
+                        <a>Link to github repository</a>
                     </div>
                 </div>
             </div>
 
             <div id="contact-div">
                 <h2>Contact</h2>
+                <p>E-Mail</p>
+                <p>Phone Number</p>
+                <a>Link to CV/Resume</a>
             </div>
+        </main>
     </body>
 
 
