@@ -9,15 +9,16 @@ nav {
     justify-content: space-between;
     border-radius: 3px;
     padding: 10px 20px 5px 20px;
-    width: 80%;
+    width: 100%;
     position: fixed;
-    background-color: beige;
+    background-color: #CD5360;
     opacity: 0.75;
 }
 
 h1 {
     padding-left: 10px;
     font-size: 1.75rem;
+    color: antiquewhite;
 }
 
 #nav-links {
@@ -33,7 +34,7 @@ h1 {
 
 #nav-links a {
     text-decoration: none;
-    color: black;
+    color: antiquewhite;
 }
 
 #nav-links a:hover {
@@ -46,8 +47,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    width: 100%;
     padding-top: 100px;
+    background-color: #438496;
 }
 
 h2 {
@@ -59,7 +61,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 70%;
 }
 
 #description-div {
@@ -144,15 +146,14 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: beige;
-    width: 100%;
+    width: 70%;
 }
 
 #projects-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 100%;
 }
 
 .project-box {
@@ -160,16 +161,17 @@ h3 {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: lightgray;
-    border: 1px solid black;
-    border-radius: 10px;
+    background-color: rgb(245, 240, 240);
+    border-radius: 5px;
     padding-bottom: 10px;
     margin-bottom: 50px;
+    box-shadow: 2px 1px 10px black;
+    background-color: #FFFFFF;
 }
 
 h4 {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .img-desc-box {
@@ -178,6 +180,7 @@ h4 {
     justify-content: flex-start;
     align-items: center;
     width: 70%;
+    margin-bottom: 30px;
 }
 
 .project-img {
@@ -189,15 +192,39 @@ h4 {
     padding-left: 50px;
     width: 40%;
 }
-.tech-used {
-    margin-top: 20px;
+
+#tech-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+#tech-list li {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #CD5360;
+    color: black;
+    width: 30%;
+    border-radius: 5px;
+}
+
+#project-links-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
     margin-bottom: 20px;
 }
-.project-link {
-    padding-bottom: 20px;
+
+#project-link {
+    background-color: dodgerblue;
 }
-.github-link {
-    padding-bottom: 20px;
+
+#github-link {
+    background-color: dodgerblue;
 }
 
 #contact-div {
@@ -205,6 +232,6 @@ h4 {
     flex-direction: column;
     align-items: center;
     padding-bottom: 10px;
-    background-color: coral;
+    background-color: #B47D4E;
     width: 100%;
 }
