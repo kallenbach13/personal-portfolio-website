@@ -71,6 +71,7 @@ h2 {
 }
 
 #description {
+    margin-top: 20px;
     margin-left: 50px;
     width: 30%
 }
@@ -172,11 +173,11 @@ h4 {
 }
 
 .img-desc-box {
-    display: hidden;
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    width: 90%;
-    background-color: blue;
+    align-items: center;
+    width: 70%;
 }
 
 .project-img {
@@ -185,10 +186,12 @@ h4 {
     border-radius: 10px;
 }
 .project-description {
-    width: 25%;
+    padding-left: 50px;
+    width: 40%;
 }
 .tech-used {
-    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .project-link {
     padding-bottom: 20px;
