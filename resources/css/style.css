@@ -7,9 +7,12 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: blanchedalmond;
     border-radius: 3px;
+    padding: 10px 20px 5px 20px;
     width: 80%;
+    position: fixed;
+    background-color: beige;
+    opacity: 0.75;
 }
 
 h1 {
@@ -28,16 +31,28 @@ h1 {
     font-size: 1.5rem;
 }
 
+#nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-links a:hover {
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 1.6rem;
+}
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 70%;
+    padding-top: 100px;
 }
 
 h2 {
     font-size: 2rem;
-    padding: 30px 0px;
+    padding: 40px 0px;
 }
 
 #about-me-div {
@@ -45,7 +60,6 @@ h2 {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: aliceblue;
 }
 
 #description-div {
@@ -53,11 +67,12 @@ h2 {
     flex-direction: row;
     justify-content: flex-start;
     width: 90%;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 #description {
     margin-left: 50px;
+    width: 30%
 }
 
 #profile-img {
@@ -143,11 +158,34 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    width: 80%;
     background-color: lightgray;
+    border: 1px solid black;
     border-radius: 10px;
     padding-bottom: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.project-img {
+    width: 350px;
+    height: 200px;
+    padding-bottom: 20px;
+}
+.project-description {
+    width: 25%;
+}
+.tech-used {
+    padding-bottom: 20px;
+}
+.project-link {
+    padding-bottom: 20px;
+}
+.github-link {
+    padding-bottom: 20px;
 }
 
 #contact-div {
@@ -156,5 +194,5 @@ h3 {
     align-items: center;
     padding-bottom: 10px;
     background-color: coral;
-    width: 200%;
+    width: 100%;
 }
