@@ -142,6 +142,7 @@ h3 {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: auto;
     margin-top: 30px;
 }
 
@@ -150,21 +151,23 @@ h3 {
     flex-direction: row;
     justify-content: flex-start;
     width: 80%;
-    background-color: rgb(245, 240, 240);
     border-radius: 10px;
     margin-bottom: 50px;
     box-shadow: 2px 1px 10px black;
     background-color: #FFFFFF;
 }
 
-#project-img-div {
+.project-img-div {
     width: 40%;
+}
+
+#cool-phrase-img {
     background-image: url(../images/project-images/cool-phrase-pic.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#project-content-div {
+.project-content-div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -176,13 +179,13 @@ h4 {
     padding-bottom: 20px;
 }
 
-#project-description {
+.project-description {
     font-size: 1.2rem;
     width: 40%;
     padding-bottom: 20px;
 }
 
-#tech-list {
+.tech-list {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -191,7 +194,7 @@ h4 {
     margin-bottom: 30px;
 }
 
-#tech-list li {
+.tech-list li {
     display: flex;
     justify-content: center;
     border: 1px solid #1E90FF;
@@ -200,7 +203,7 @@ h4 {
     border-radius: 5px;
 }
 
-#project-links-box {
+.project-links-box {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -208,19 +211,19 @@ h4 {
     margin-bottom: 20px;
 }
 
-#project-link {
+.project-link {
     background-color: #1E90FF;
 }
-#project-link:hover {
+.project-link:hover {
     background-color: navy;
     padding-top: 5px;
     font-size: 1.03rem;
 }
 
-#github-link {
+.github-link {
     background-color: #1E90FF;
 }
-#github-link:hover {
+.github-link:hover {
     background-color: navy;
     padding-top: 5px;
     font-size: 1.03rem;
