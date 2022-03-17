@@ -83,8 +83,8 @@ hr {
 
 #profile-img {
     width: 200px;
-    height: 200px;
-    border-radius: 80px;
+    height: 250px;
+    border-radius: 10px;
 }
 
 #skill-div {
@@ -273,4 +273,7 @@ h4 {
 .download {
     color: #FCF5E5;
     text-decoration: none;
+}
+.download:hover {
+    color: #1E90FF;
 }
