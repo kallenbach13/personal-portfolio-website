@@ -160,10 +160,17 @@ h3 {
 .project-img-div {
     width: 30%;
 }
-#cool-phrase-img {
-    background-image: url(../images/project-images/cool-phrase-pic.png);
+#gratis-img {
+    background-image: url(../images/project-images/gratis-img.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+#cool-phrase-img {
+    background-image: url(../images/project-images/cool-phrase-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .project-content-div {
