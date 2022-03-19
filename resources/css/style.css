@@ -159,6 +159,8 @@ h3 {
 
 .project-img-div {
     width: 30%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 #gratis-img {
     background-image: url(../images/project-images/gratis-img.png);
