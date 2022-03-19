@@ -279,6 +279,14 @@ h4 {
     width: 40%;
 }
 
+.email {
+    color: #FCF5E5;
+    text-decoration: none;
+}
+.email:hover {
+    color: #1E90FF;
+}
+
 .download {
     color: #FCF5E5;
     text-decoration: none;
