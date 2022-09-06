@@ -182,6 +182,12 @@ h3 {
     background-size: cover;
     background-position: center;
 }
+#monster-hunters-guide-img {
+    background-image: url(../images/project-images/monster-hunters-guide-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 #cool-phrase-img {
     background-image: url(../images/project-images/cool-phrase-img-new.png);
     background-repeat: no-repeat;
