@@ -188,8 +188,14 @@ h3 {
     background-size: cover;
     background-position: center;
 }
+#taskmaster-img {
+    background-image: url(../images/project-images/taskmaster-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 #cool-phrase-img {
-    background-image: url(../images/project-images/cool-phrase-img-new.png);
+    background-image: url(../images/project-images/cool-phrase-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
