@@ -27,9 +27,6 @@ h1 {
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
-    padding-right: 10px;
-    width: 30%;
-    font-size: 1.5rem;
 }
 
 #nav-links a {
